@@ -1,0 +1,13 @@
+SMAP
+listajogadores_jsp.java
+JSP
+*S JSP
+*F
++ 0 header.jsp
+Site/heroi/header.jsp
++ 1 listajogadores.jsp
+Site/heroi/listajogadores.jsp
+*L
+1,36:49
+1#1,15:85
+*E

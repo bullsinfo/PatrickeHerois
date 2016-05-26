@@ -1,0 +1,183 @@
+body{
+    background-image: url("wallpaper.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Impact';
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: initial-flex;
+}
+input{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Impact';
+    border-radius: 15%;
+    border-color: #FFFFFF;
+    padding: 5px;
+    float: right;
+}
+p{
+    font-size: 14px;
+    position: relative;
+}
+form{
+    padding: 0;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    width: 98%;
+    margin: 1%;
+    border-radius: 20px;
+    height: 98%;
+}
+img.foto{
+    width: 175px; height: 200px;
+    /*width: 50%;
+    height: 50%;*/
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px hsla(0, 0%, 0%, 0.5);
+    padding: 0;
+}
+ul.atributes {
+    columns: 2;
+    padding: 0;
+}
+li.atributes{
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    text-shadow: 0px 0px 1px #FFFFFF;
+    margin: 5px;
+}
+h1{
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    text-shadow: 1px 1px #FFFFFF;
+    margin: 0;
+}
+h2{
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+h4{
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+h5{
+    margin: 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+h6{
+    margin: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #000000;
+}
+li.circle{
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+div.banner{
+    width: 100%;
+    background-color: #000000;
+}
+img.banner{
+    height: 30%;
+    width: 30%;
+    margin-left: 20%;
+}
+img.painel{
+    height: 30%;
+    width: 30%;
+}
+div.menu{
+    position: initial;
+    display: initial-flex;
+    margin: 0;
+    padding: 0
+}
+ul.menu, .menu li, .menu a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+}
+ul.menu ul{
+    position: absolute;
+    display: none;
+}
+ul.menu{
+    float: left;
+    text-align: center;
+    font-family: 'Impact';
+    font-size: 20px;
+    border-radius: 0;
+    padding: 0;
+    width: 100%;
+}
+.menu li{
+    float: left;
+    width: auto;
+    display: block;
+    position: relative;
+    width: 25%;
+}
+.menu li a{
+    padding: 0; line-height: 40px; height: 40px; float: left; width: 100%;
+    transition:all 0.2s linear; color: #FFFFFF;
+}
+.menu li:hover > ul.submenu{
+    display: block; top: 100%; padding: 0; width: 100%;
+}
+.menu ul.submenu a{
+    width:100%; padding:0; border-radius: 0;
+}
+.menu{
+    background: #000000;
+}
+.menu a{
+    color: #FFFFFF;
+}
+.menu li:hover > a{
+    background:#FFFFFF;  color:#000000;
+}
+.submenu{
+    background: #000000;
+}
+.submenu a{
+    color: #FFFFFF;
+}
+.submenu li{
+    width: 50%;
+}
+.submenu li:hover > a{
+    background: #FFFFFF;
+}
